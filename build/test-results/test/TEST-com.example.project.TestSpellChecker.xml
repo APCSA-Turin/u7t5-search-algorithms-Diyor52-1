@@ -1,26 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.TestSpellChecker" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-11T17:14:10" hostname="codespaces-5efd9a" time="1.101">
+<testsuite name="com.example.project.TestSpellChecker" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-02-26T16:50:26" hostname="codespaces-851094" time="1.298">
   <properties/>
-  <testcase name="testLinearSearchInList()" classname="com.example.project.TestSpellChecker" time="0.073"/>
-  <testcase name="testBinarySearchInList2()" classname="com.example.project.TestSpellChecker" time="0.008"/>
-  <testcase name="testBinarySearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.002"/>
-  <testcase name="testLinearSearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.009"/>
+  <testcase name="testLinearSearchInList()" classname="com.example.project.TestSpellChecker" time="0.019"/>
+  <testcase name="testBinarySearchInList2()" classname="com.example.project.TestSpellChecker" time="0.104"/>
+  <testcase name="testBinarySearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.018"/>
+  <testcase name="testLinearSearchNotInList()" classname="com.example.project.TestSpellChecker" time="0.031"/>
   <testcase name="testBinarySearchInList()" classname="com.example.project.TestSpellChecker" time="0.001"/>
   <system-out><![CDATA[
 dictionary.txt file imported successfully!
 -- LINEAR SEARCH: Number of words checked (loop iterations): 44357
 
 dictionary.txt file imported successfully!
--- BINARY SEARCH: Number of words checked (loops/runtime): 1
+BINARY SEARCH - Loop Counter: 1 Left Index: 0 Middle Index: 63571 Right Index: 127142
+Word found: lightered at index 63571
 
 dictionary.txt file imported successfully!
--- BINARY SEARCH: Number of words checked (loops/runtime): 17
+BINARY SEARCH - Loop Counter: 1 Left Index: 0 Middle Index: 63571 Right Index: 127142
+BINARY SEARCH - Loop Counter: 2 Left Index: 0 Middle Index: 31785 Right Index: 63570
+BINARY SEARCH - Loop Counter: 3 Left Index: 0 Middle Index: 15892 Right Index: 31784
+BINARY SEARCH - Loop Counter: 4 Left Index: 15893 Middle Index: 23838 Right Index: 31784
+BINARY SEARCH - Loop Counter: 5 Left Index: 15893 Middle Index: 19865 Right Index: 23837
+BINARY SEARCH - Loop Counter: 6 Left Index: 15893 Middle Index: 17878 Right Index: 19864
+BINARY SEARCH - Loop Counter: 7 Left Index: 15893 Middle Index: 16885 Right Index: 17877
+BINARY SEARCH - Loop Counter: 8 Left Index: 15893 Middle Index: 16388 Right Index: 16884
+BINARY SEARCH - Loop Counter: 9 Left Index: 16389 Middle Index: 16636 Right Index: 16884
+BINARY SEARCH - Loop Counter: 10 Left Index: 16389 Middle Index: 16512 Right Index: 16635
+BINARY SEARCH - Loop Counter: 11 Left Index: 16389 Middle Index: 16450 Right Index: 16511
+BINARY SEARCH - Loop Counter: 12 Left Index: 16389 Middle Index: 16419 Right Index: 16449
+BINARY SEARCH - Loop Counter: 13 Left Index: 16420 Middle Index: 16434 Right Index: 16449
+BINARY SEARCH - Loop Counter: 14 Left Index: 16435 Middle Index: 16442 Right Index: 16449
+BINARY SEARCH - Loop Counter: 15 Left Index: 16443 Middle Index: 16446 Right Index: 16449
+BINARY SEARCH - Loop Counter: 16 Left Index: 16447 Middle Index: 16448 Right Index: 16449
+BINARY SEARCH - Loop Counter: 17 Left Index: 16447 Middle Index: 16447 Right Index: 16447
+Word not found: catdog
 
 dictionary.txt file imported successfully!
 -- LINEAR SEARCH: Number of words checked (loop iterations): 127143
 
 dictionary.txt file imported successfully!
--- BINARY SEARCH: Number of words checked (loops/runtime): 16
+BINARY SEARCH - Loop Counter: 1 Left Index: 0 Middle Index: 63571 Right Index: 127142
+BINARY SEARCH - Loop Counter: 2 Left Index: 0 Middle Index: 31785 Right Index: 63570
+BINARY SEARCH - Loop Counter: 3 Left Index: 31786 Middle Index: 47678 Right Index: 63570
+BINARY SEARCH - Loop Counter: 4 Left Index: 31786 Middle Index: 39731 Right Index: 47677
+BINARY SEARCH - Loop Counter: 5 Left Index: 39732 Middle Index: 43704 Right Index: 47677
+BINARY SEARCH - Loop Counter: 6 Left Index: 43705 Middle Index: 45691 Right Index: 47677
+BINARY SEARCH - Loop Counter: 7 Left Index: 43705 Middle Index: 44697 Right Index: 45690
+BINARY SEARCH - Loop Counter: 8 Left Index: 43705 Middle Index: 44200 Right Index: 44696
+BINARY SEARCH - Loop Counter: 9 Left Index: 44201 Middle Index: 44448 Right Index: 44696
+BINARY SEARCH - Loop Counter: 10 Left Index: 44201 Middle Index: 44324 Right Index: 44447
+BINARY SEARCH - Loop Counter: 11 Left Index: 44325 Middle Index: 44386 Right Index: 44447
+BINARY SEARCH - Loop Counter: 12 Left Index: 44325 Middle Index: 44355 Right Index: 44385
+BINARY SEARCH - Loop Counter: 13 Left Index: 44356 Middle Index: 44370 Right Index: 44385
+BINARY SEARCH - Loop Counter: 14 Left Index: 44356 Middle Index: 44362 Right Index: 44369
+BINARY SEARCH - Loop Counter: 15 Left Index: 44356 Middle Index: 44358 Right Index: 44361
+BINARY SEARCH - Loop Counter: 16 Left Index: 44356 Middle Index: 44356 Right Index: 44357
+Word found: frost at index 44356
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
